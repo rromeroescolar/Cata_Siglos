@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       /*function obtenerSiglo(anio) {
+  // Dividimos el año entre 100 y redondeamos hacia arriba
+  // para obtener el siglo correspondiente
+  let siglo = Math.ceil(anio / 100);
+  return siglo;
+}*/
+       function obtenerSiglo(){    
+            let anio=prompt("Introduce un año");
+           let siglo=Math.ceil(anio / 100);
+            alert("El año " +anio+ " pertenece al siglo " +siglo);
+        }
+
+
+       /* function obtenerSiglo(anio){
+            prompt("Introduce un año");
+             let siglo=Math.ceil(anio / 100);
+            alert("El año " +anio+ "pertenece al siglo " +siglo);
+        }*/
+    </script>
+</head>
+<body>
+    <button onclick="obtenerSiglo()" style="background-color: rgb(186, 120, 248); border-radius: 25px; border: ridge 5px orange;"> CLICA PARA INTRODUCIR UN NUMERO DE AÑO</button>
+</body>
+</html>
